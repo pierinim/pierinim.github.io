@@ -3,6 +3,12 @@
 # only main files contain this front matter, not partials.
 ---
 
+$sidebar-bg-color: #3861aa;
+$body-color: #3861aa;
+$body-font-family: Monaco, monospace;
+$code-font-family: Monaco, monospace;
+$root-font-family: Monaco, monospace;
+$sidebar-sticky: false;
+
 @import "hydeout";
 
-$sidebar-bg-color: #054B81

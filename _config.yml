@@ -33,9 +33,9 @@ sidebar_home_link:  true
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
-#github:
-#  repo:             https://github.com/pierinim
+github:
+  repo:             https://github.com/pierinim
 
 twitter_username:     xmpierinix
 github_username:      pierinim
-#linkedin_username:   maurizio-pierini-a04889a
+linkedin_username:   maurizio-pierini-a04889a
