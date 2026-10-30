@@ -94,3 +94,8 @@ $navicon-link-color-hover: #d9e8f5;
 .page__content figure img { max-height: 520px; width: auto; margin: 0 auto; }
 .page__content figure figcaption { text-align: center; }
 .page__content figure figcaption { font-family: $sans-serif; }
+
+// "More" page
+.media-list { padding-left: 1.1em; }
+.media-list li { margin-bottom: 0.9em; }
+.media-list small { color: $muted-text-color; }
