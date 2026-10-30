@@ -28,6 +28,8 @@ particular emphasis on **real-time AI** running on FPGAs in the trigger system.
 - **New trigger strategies**: inventor of CMS data scouting; B-parking; the CMS Exotica Hotline.
 - **Searches for new physics in CMS**: SUSY (razor, RPV with enhanced third-generation couplings),
   dijet and diboson resonances, model-agnostic dijet searches.
+- **BSM phenomenology**: missing-energy and Higgs look-alikes, pMSSM interpretation, light stops,
+  gauge mediation, ATLAS+CMS diboson combination.
 - **Global fits**: electroweak and Higgs fits with HEPfit; CKM fits with UTfit.
 - **Flavour phenomenology**: charming penguins, penguin pollution in sin2β, γ from Dalitz plots, MFV.
 - **BaBar**: charmless two-body B decays, B → ℓℓ, time-dependent CP asymmetries with K<sub>S</sub>.
