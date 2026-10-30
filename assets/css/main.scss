@@ -1,14 +1,204 @@
 ---
-# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
-# only main files contain this front matter, not partials.
+# Front matter so Jekyll processes this file (and its Liquid) into main.css
 ---
 
-$sidebar-bg-color: #3861aa;
-$body-color: #3861aa;
-$body-font-family: Monaco, monospace;
-$code-font-family: Monaco, monospace;
-$root-font-family: Monaco, monospace;
-$sidebar-sticky: false;
+// "Detector dark" theme: deep navy, faint CMS image behind everything,
+// cyan for tracks/links and a warm red borrowed from the muon system.
 
-@import "hydeout";
+$bg:        #070b14;
+$surface:   rgba(13, 20, 36, 0.72);
+$surface-2: rgba(22, 33, 56, 0.78);
+$border:    rgba(140, 170, 220, 0.16);
+$text:      #e6edf7;
+$muted:     #93a4bf;
+$accent:    #4cc9f0;
+$warm:      #ff6b4a;
+$radius:    14px;
+$sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
 
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: $bg;
+  color: $text;
+  font: 400 17px/1.65 $sans;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+// Fixed pseudo-background: works on iOS, where background-attachment: fixed does not.
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(7, 11, 20, 0.35) 0%, rgba(7, 11, 20, 0.92) 70%),
+    linear-gradient(180deg, rgba(7, 11, 20, 0.55), rgba(7, 11, 20, 0.95)),
+    url("{{ site.baseurl }}/assets/img/cms-background.jpg") center 30% / cover no-repeat,
+    radial-gradient(circle at 70% 20%, #13203a 0%, $bg 60%);
+  filter: saturate(0.85);
+}
+
+a { color: $accent; text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+.wrap { width: 100%; max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+.main { flex: 1; padding-top: 32px; padding-bottom: 64px; }
+
+// ---------- top bar ----------
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(7, 11, 20, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid $border;
+}
+.topbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 60px;
+  flex-wrap: wrap;
+}
+.brand { display: flex; align-items: center; gap: 10px; color: $text; font-weight: 600; }
+.brand:hover { text-decoration: none; }
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2px solid $warm;
+  box-shadow: inset 0 0 0 3px $bg, inset 0 0 0 5px rgba(76, 201, 240, 0.6);
+  font: 500 12px $mono;
+}
+.nav { display: flex; gap: 4px; flex-wrap: wrap; }
+.nav a {
+  color: $muted;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.nav a:hover, .nav a.active { color: $text; background: $surface-2; text-decoration: none; }
+
+// ---------- hero ----------
+.hero { padding: 56px 0 40px; max-width: 760px; }
+.eyebrow {
+  display: inline-block;
+  font: 500 13px/1.4 $mono;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $warm;
+  margin: 0 0 12px;
+}
+.hero h1 {
+  font-size: clamp(40px, 7vw, 68px);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  font-weight: 800;
+  margin: 0 0 12px;
+}
+.hero-sub { font-size: clamp(20px, 2.6vw, 26px); color: $accent; margin: 0 0 16px; font-weight: 500; }
+.hero-text { color: $muted; font-size: 18px; margin: 0 0 24px; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 36px; }
+
+.btn {
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: 999px;
+  border: 1px solid $border;
+  background: $surface;
+  color: $text;
+  font-weight: 500;
+  font-size: 15px;
+}
+.btn:hover { border-color: $accent; text-decoration: none; }
+.btn-primary { background: $accent; border-color: $accent; color: $bg; }
+.btn-primary:hover { background: lighten($accent, 8%); }
+
+.stats { display: flex; flex-wrap: wrap; gap: 32px; margin: 0; }
+.stats div { border-left: 2px solid $warm; padding-left: 14px; }
+.stats dt { font: 500 28px/1.1 $mono; color: $text; }
+.stats dd { margin: 4px 0 0; color: $muted; font-size: 14px; }
+
+// ---------- sections & cards ----------
+.section { margin-top: 48px; }
+.section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+.section-head h2, .section h2 { font-size: 22px; margin: 0; font-weight: 700; }
+.section-head a { font-size: 14px; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.card {
+  display: block;
+  background: $surface;
+  border: 1px solid $border;
+  border-radius: $radius;
+  padding: 20px 22px;
+  color: $text;
+  transition: border-color .15s, transform .15s;
+}
+.card:hover { border-color: rgba(76, 201, 240, 0.6); transform: translateY(-2px); text-decoration: none; }
+.card h3 { font-size: 18px; line-height: 1.35; margin: 6px 0 8px; }
+.card p { color: $muted; font-size: 15px; margin: 0; }
+.card-label { font: 500 12px $mono; text-transform: uppercase; letter-spacing: 0.06em; color: $warm; }
+
+.panel {
+  background: $surface;
+  border: 1px solid $border;
+  border-radius: $radius;
+  padding: 24px 26px;
+}
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+.list { list-style: none; margin: 0; padding: 0; }
+.list li { padding: 10px 0; border-top: 1px solid $border; }
+.list li:first-child { border-top: 0; padding-top: 0; }
+.list a { color: $text; font-weight: 500; }
+.list a:hover { color: $accent; }
+.meta { display: block; color: $muted; font-size: 13px; margin-top: 2px; }
+
+// ---------- long-form pages ----------
+.page-title { font-size: clamp(30px, 4.5vw, 42px); line-height: 1.15; letter-spacing: -0.01em; margin: 0 0 16px; font-weight: 800; }
+.lead { color: $muted; font-size: 18px; }
+.prose { max-width: 860px; margin: 0 auto; }
+.prose h2, .prose h3 { margin: 32px 0 12px; font-weight: 700; }
+.prose h3 { font-size: 20px; color: $accent; }
+.prose h4 {
+  font: 500 15px $mono;
+  color: $warm;
+  margin: 28px 0 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid $border;
+}
+.prose ul, .prose ol { padding-left: 1.2em; }
+.prose li { margin: 6px 0; }
+.prose li small { color: $muted; font-size: 13px; line-height: 1.5; display: inline-block; }
+.prose strong { color: #fff; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
+.chip { font: 500 12px $mono; color: $muted; border: 1px solid $border; border-radius: 999px; padding: 3px 10px; }
+
+// ---------- footer ----------
+.footer { border-top: 1px solid $border; background: rgba(7, 11, 20, 0.75); color: $muted; font-size: 14px; }
+.footer-inner { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; padding: 20px; }
+.footer .links { display: flex; flex-wrap: wrap; gap: 14px; }
+.footer a { color: $muted; }
+.footer a:hover { color: $accent; }
+
+// ---------- small screens ----------
+@media (max-width: 760px) {
+  body { font-size: 16px; }
+  .two-col { grid-template-columns: 1fr; }
+  .hero { padding-top: 32px; }
+  .panel { padding: 20px 18px; }
+  .brand-name { display: none; }
+}

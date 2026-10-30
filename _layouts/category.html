@@ -1,21 +1,13 @@
 ---
-layout: page
+layout: default
 ---
-
-{% unless page.content == '' %}
-  {{ content }}
-{% endunless %}
-
-<ul class="posts-list">
-  {% assign category = page.category | default: page.title %}
-  {% for post in site.categories[category] %}
-    <li>
-      <h3>
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-          <small>{{ post.date | date_to_string }}</small>
-        </a>
-      </h3>
-    </li>
-  {% endfor %}
-</ul>
+{% assign category = page.category | default: page.title %}
+<section class="section">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {% unless content == '' %}<div class="lead">{{ content }}</div>{% endunless %}
+  <div class="cards">
+    {% for post in site.categories[category] %}
+      {% include project-card.html post=post %}
+    {% endfor %}
+  </div>
+</section>

@@ -2,6 +2,8 @@
 layout: post
 title: "CMS: searches for new physics and physics coordination"
 categories: [Projects]
+label: "CMS"
+summary: "SUSY and exotica searches, razor variables, physics coordination."
 tags: [CMS, SUSY, exotica]
 ---
 

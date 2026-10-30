@@ -4,7 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            Maurizio Pierini
-tagline:          'Physicist at CERN'
+tagline:          'AI for real-time physics at the LHC'
 description:      'Physicist at CERN & CMS. AI for particle physics and real-time machine learning.'
 url:              https://pierinim.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
@@ -17,7 +17,6 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
 #  name:           'Andrew Fong'
 #  url:            https://twitter.com/fongandrewc
 
-paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
