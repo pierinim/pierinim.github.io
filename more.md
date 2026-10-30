@@ -1,6 +1,10 @@
 ---
 title: More
 permalink: /more/
+header:
+  overlay_image: /assets/img/more-banner-zenseact.jpg
+  overlay_filter: rgba(0, 0, 0, 0.3)
+  caption: "Image: Zenseact"
 ---
 
 {% for s in site.data.media %}

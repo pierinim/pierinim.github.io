@@ -2,9 +2,9 @@
 permalink: /about/
 title: About
 header:
-  overlay_image: /assets/img/cms-event-banner.jpg
-  overlay_filter: rgba(0, 0, 0, 0.1)
-  caption: "Event display: CMS Collaboration, [JHEP 05 (2020) 033](https://arxiv.org/abs/1911.03947)"
+  overlay_image: /assets/img/cms-wmass-event-banner.jpg
+  overlay_filter: rgba(0, 0, 0, 0.35)
+  caption: "Event display: CMS Collaboration, W boson mass measurement (courtesy C. Paus)"
 ---
 
 I am a permanent research staff physicist in the Experimental Physics Department at
