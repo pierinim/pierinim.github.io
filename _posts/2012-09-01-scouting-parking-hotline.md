@@ -9,12 +9,17 @@ tags: [CMS, trigger, scouting, parking]
 The LHC produces far more interesting collisions than can be stored. I worked on new strategies
 to extend the physics reach of the CMS trigger:
 
-- **Data scouting.** I invented the data-scouting technique: recording a reduced event content
+- **Data scouting.** I introduced data scouting in CMS: recording a reduced event content
   reconstructed at the High-Level Trigger, so that events can be kept at much higher rates. It was
-  first used for a search for low-mass dijet resonances and is now a standard part of the CMS
+  the first demonstration of real-time data analysis for LHC physics, first used for a search for
+  low-mass dijet resonances, and is now a standard part of the CMS
   physics programme, extended to the Level-1 trigger for the HL-LHC.
-- **B-parking.** The 2018 CMS B-parking run recorded about 10 billion b-hadron events, parked for
-  later reconstruction, opening a flavour-physics programme at CMS.
+- **B-parking.** I introduced a dataset of about 10<sup>10</sup> b-hadron decays, collected in 2018
+  and parked for later reconstruction, to measure R(K) and R(K*) and turn CMS into a flavour-physics
+  experiment too. It enabled results CMS would not otherwise have delivered: lepton-flavour
+  universality tests, CP violation in charm and searches for light long-lived neutral particles.
+  As CMS Physics Coordinator (2022–2024) I made data parking a default practice and increased the
+  scouting rate to about 25 kHz.
 - **The CMS Exotica Hotline**, a fast-response effort to spot striking new-physics signatures as
   soon as new data are collected.
 
