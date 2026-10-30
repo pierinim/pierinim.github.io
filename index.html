@@ -1,68 +1,54 @@
 ---
-layout: default
-title: Home
+layout: splash
+permalink: /
+title: "Maurizio Pierini"
+author_profile: false
+header:
+  overlay_image: /assets/img/cms-background.jpg
+  overlay_filter: rgba(28, 58, 92, 0.55)
+  actions:
+    - label: "About me"
+      url: /about/
+    - label: "INSPIRE-HEP"
+      url: "https://inspirehep.net/authors/1021028"
+excerpt: "Staff physicist at CERN on the CMS experiment.<br>AI for real-time physics at the Large Hadron Collider."
 ---
-<section class="hero">
-  <p class="eyebrow">CERN · CMS Experiment</p>
-  <h1>Maurizio Pierini</h1>
-  <p class="hero-sub">AI for real-time physics at the Large Hadron Collider.</p>
-  <p class="hero-text">
-    I am a staff physicist at CERN, working on CMS since 2007. I develop deep-learning
-    methods to extend the reach of LHC experiments to new physics, with a focus on
-    anomaly detection and ultra-fast machine learning on FPGAs in the trigger system.
-  </p>
-  <p class="hero-actions">
-    <a class="btn btn-primary" href="{{ site.baseurl }}/about">About me</a>
-    <a class="btn" href="https://inspirehep.net/authors/1021028">INSPIRE</a>
-    <a class="btn" href="https://scholar.google.com/citations?user=3vZMAs4AAAAJ">Scholar</a>
-    <a class="btn" href="https://github.com/{{ site.github_username }}">GitHub</a>
-  </p>
-  <dl class="stats">
-    <div><dt>{{ site.data.publications | size }}</dt><dd>papers with &lt; 50 authors</dd></div>
-    <div><dt>{{ site.data.talks | size }}</dt><dd>talks &amp; lectures</dd></div>
-    <div><dt>2007</dt><dd>on CMS since</dd></div>
-  </dl>
-</section>
 
-<section class="section">
-  <div class="section-head">
-    <h2>Research</h2>
-    <a href="{{ site.baseurl }}/category/projects">All projects →</a>
-  </div>
-  <div class="cards">
-    {% for post in site.categories.Projects limit: 6 %}
-      {% include project-card.html post=post %}
-    {% endfor %}
-  </div>
-</section>
+<p class="home-intro">
+  I develop deep-learning methods that extend the reach of LHC experiments to new physics,
+  with a focus on anomaly detection and ultra-fast machine learning on FPGAs in the trigger system.
+  I have worked on CMS since 2007, after a PhD and postdocs on BaBar.
+</p>
 
-<section class="section two-col">
-  <div class="panel">
-    <div class="section-head">
-      <h2>Latest papers</h2>
-      <a href="{{ site.baseurl }}/publications">All →</a>
-    </div>
-    <ul class="list">
+<h2 class="home-section">Research</h2>
+<div class="home-cards">
+  {% for post in site.categories.Projects limit: 6 %}
+  <a class="home-card" href="{{ post.url | relative_url }}">
+    {% if post.label %}<p class="home-label">{{ post.label }}</p>{% endif %}
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.excerpt | strip_html }}</p>
+  </a>
+  {% endfor %}
+</div>
+<p><a class="btn btn--primary" href="{{ '/projects/' | relative_url }}">All projects</a></p>
+
+<div class="home-columns">
+  <div>
+    <h2 class="home-section">Latest papers</h2>
+    <ul class="home-list">
       {% for p in site.data.publications limit: 5 %}
-        <li>
-          <a href="{{ p.url }}">{{ p.title }}</a>
-          <span class="meta">{{ p.year }}{% if p.arxiv != "" %} · arXiv:{{ p.arxiv }}{% endif %}</span>
-        </li>
+      <li><a href="{{ p.url }}">{{ p.title }}</a><br><small>{{ p.year }}{% if p.arxiv != "" %} · arXiv:{{ p.arxiv }}{% endif %}</small></li>
       {% endfor %}
     </ul>
+    <p><a href="{{ '/publications/' | relative_url }}">All {{ site.data.publications | size }} publications →</a></p>
   </div>
-  <div class="panel">
-    <div class="section-head">
-      <h2>Recent talks</h2>
-      <a href="{{ site.baseurl }}/talks">All →</a>
-    </div>
-    <ul class="list">
+  <div>
+    <h2 class="home-section">Recent talks</h2>
+    <ul class="home-list">
       {% for t in site.data.talks limit: 5 %}
-        <li>
-          <a href="{{ t.url }}">{{ t.title }}</a>
-          <span class="meta">{{ t.event }} · {{ t.date | date: "%b %Y" }}</span>
-        </li>
+      <li><a href="{{ t.url }}">{{ t.title }}</a><br><small>{{ t.event }} · {{ t.date | date: "%b %Y" }}</small></li>
       {% endfor %}
     </ul>
+    <p><a href="{{ '/talks/' | relative_url }}">All {{ site.data.talks | size }} talks →</a></p>
   </div>
-</section>
+</div>

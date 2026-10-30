@@ -1,7 +1,6 @@
 ---
-layout: page
+permalink: /publications/
 title: Publications
-sidebar_link: true
 ---
 
 As a member of the CMS Collaboration (and previously BaBar) I am co-author of more than

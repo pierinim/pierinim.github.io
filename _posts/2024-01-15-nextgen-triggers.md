@@ -1,9 +1,8 @@
 ---
-layout: post
 title: "Next Generation Triggers (NGT)"
 categories: [Projects]
 label: "Real-time AI"
-summary: "AI-powered processing of every LHC collision."
+excerpt: "AI-powered processing of every LHC collision."
 tags: [real-time, AI, CMS, trigger]
 ---
 

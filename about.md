@@ -1,10 +1,9 @@
 ---
-layout: page
+permalink: /about/
 title: About
-sidebar_link: true
 ---
 
-I am a senior research physicist at [CERN](https://home.cern), working on the
+I am a staff physicist at [CERN](https://home.cern), working on the
 [CMS experiment](https://cms.cern) at the Large Hadron Collider since 2007.
 My research focuses on **artificial intelligence for particle physics**: using
 deep learning to extend the sensitivity of LHC experiments to new physics, with a

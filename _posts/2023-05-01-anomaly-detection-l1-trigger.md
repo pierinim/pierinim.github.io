@@ -1,9 +1,8 @@
 ---
-layout: post
 title: "Real-time anomaly detection at the CMS Level-1 trigger"
 categories: [Projects]
 label: "Trigger"
-summary: "Unsupervised new-physics detection at 40 MHz in CMS."
+excerpt: "Unsupervised new-physics detection at 40 MHz in CMS."
 tags: [anomaly detection, trigger, FPGA, CMS]
 ---
 

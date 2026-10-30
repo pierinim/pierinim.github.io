@@ -1,9 +1,8 @@
 ---
-layout: post
 title: "Model-independent new-physics searches with statistical learning"
 categories: [Projects]
 label: "Statistics"
-summary: "Neural networks as goodness-of-fit tests for new physics."
+excerpt: "Neural networks as goodness-of-fit tests for new physics."
 tags: [statistics, anomaly detection, goodness of fit]
 ---
 

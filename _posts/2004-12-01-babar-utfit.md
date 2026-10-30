@@ -1,9 +1,8 @@
 ---
-layout: post
 title: "Earlier work: BaBar and UTfit"
 categories: [Projects]
 label: "Flavour physics"
-summary: "CKM fits with UTfit and B physics at BaBar."
+excerpt: "CKM fits with UTfit and B physics at BaBar."
 tags: [BaBar, flavour, UTfit]
 ---
 
