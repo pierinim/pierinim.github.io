@@ -66,6 +66,9 @@
     - title: "CMS Times interview"
       outlet: "YouTube"
       url: "https://www.youtube.com/watch?v=tO9IkP1FsdI"
+    - title: "CEVA & CERN"
+      outlet: "CERN video, Facebook"
+      url: "https://www.facebook.com/cern/videos/ceva-cern/490134963775920/"
 
 - section: "Articles I wrote"
   items:
