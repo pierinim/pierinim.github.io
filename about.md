@@ -20,13 +20,17 @@ particular emphasis on **real-time AI** running on FPGAs in the trigger system.
 
 ### Research highlights
 
-- Anomaly-detection triggers for new physics at the LHC, culminating in the
-  AXOL1TL and CICADA algorithms deployed in the CMS Level-1 trigger.
-- Co-author of the original [hls4ml](https://github.com/fastmachinelearning/hls4ml) paper and
-  member of the *Fast Machine Learning* community.
-- Graph neural networks for jet tagging and reconstruction (JEDI-net, GarNet).
-- Searches for supersymmetry and exotica in CMS (razor variables, dijet and diboson resonances).
-- CKM Unitarity Triangle fits with UTfit, and global electroweak/Higgs fits with HEPfit.
+- **Real-time AI at the LHC**: anomaly-detection triggers (AXOL1TL, CICADA) in the CMS Level-1
+  trigger, and CERN's Next Generation Triggers project.
+- **Fast machine learning**: co-author of the original [hls4ml](https://github.com/fastmachinelearning/hls4ml)
+  paper; graph neural networks on FPGAs (JEDI-net, GarNet).
+- **Anomaly detection for data quality monitoring** in CMS, with A. A. Pol.
+- **New trigger strategies**: inventor of CMS data scouting; B-parking; the CMS Exotica Hotline.
+- **Searches for new physics in CMS**: SUSY (razor, RPV with enhanced third-generation couplings),
+  dijet and diboson resonances, model-agnostic dijet searches.
+- **Global fits**: electroweak and Higgs fits with HEPfit; CKM fits with UTfit.
+- **Flavour phenomenology**: charming penguins, penguin pollution in sin2β, γ from Dalitz plots, MFV.
+- **BaBar**: charmless two-body B decays, B → ℓℓ, time-dependent CP asymmetries with K<sub>S</sub>.
 - Physics prospects for future colliders (FCC, LEP3).
 
 ### Roles, grants and awards
