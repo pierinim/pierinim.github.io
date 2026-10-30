@@ -3,8 +3,8 @@ permalink: /talks/
 title: Talks
 header:
   overlay_image: /assets/img/banner-talks.jpg
-  overlay_filter: rgba(0, 0, 0, 0.35)
-  caption: "CERN Main Auditorium, Higgs seminar, July 2012 (Image: CERN)"
+  overlay_filter: rgba(40, 20, 70, 0.45)
+  caption: "Detail of the poster of the SEARCH 2025 conference at CERN"
 ---
 
 Seminars, conference talks, lectures and outreach, from my contributions on
