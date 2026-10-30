@@ -83,9 +83,17 @@ I am an author of about 1,900 papers, with more than 133,000 citations (h-index 
 ### Teaching and supervision
 
 Since 2024 I teach a semester course on **Applied Machine Learning** for master and PhD students at
-the University of Zurich. Within the mPP and hls4ml projects I supervised five postdocs, four PhD
-students and many visiting students, and I lecture regularly at universities and at summer and
-winter schools (see [Talks]({{ '/talks/' | relative_url }})).
+the University of Zurich. Within the mPP and hls4ml projects I supervised five postdocs and many
+visiting students, and I lecture regularly at universities and at summer and winter schools (see
+[Talks]({{ '/talks/' | relative_url }})).
+
+PhD students:
+
+- **Adrian Alan Pol**: anomaly detection for CMS data quality monitoring
+- **Shah Rukh Qasim**: graph neural networks for particle reconstruction
+- **Gaia Grosso**: learning new physics with neural networks
+- **Kinga Anna Woźniak**: classical and quantum anomaly detection
+- **Ema Puljak**: anomaly detection and quantum machine learning
 
 ### Editorial work and service
 
