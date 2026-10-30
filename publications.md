@@ -1,6 +1,10 @@
 ---
 permalink: /publications/
 title: Publications
+header:
+  overlay_image: /assets/img/banner-publications.jpg
+  overlay_filter: rgba(0, 0, 0, 0.35)
+  caption: "The CERN data centre (Image: CERN)"
 ---
 
 As a member of the CMS Collaboration (and previously BaBar) I am co-author of more than

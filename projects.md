@@ -4,6 +4,10 @@ permalink: /physics/
 redirect_from: /projects/
 author_profile: true
 classes: wide
+header:
+  overlay_image: /assets/img/banner-physics.jpg
+  overlay_filter: rgba(0, 0, 0, 0.35)
+  caption: "Image: Daniel Dominguez/CERN"
 ---
 
 Research projects in particle physics, current and past.
