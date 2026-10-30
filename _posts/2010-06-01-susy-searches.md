@@ -4,7 +4,11 @@ categories: [Projects]
 label: "SUSY"
 excerpt: "Razor searches at 7, 8 and 13 TeV and R-parity-violating SUSY with enhanced third-generation couplings."
 tags: [CMS, SUSY, razor]
+header:
+  teaser: /assets/img/projects/susy-searches.png
 ---
+
+{% include figure image_path="/assets/img/projects/susy-searches.png" alt="Distribution of the razor variable MR in the hadronic box of the 7 TeV razor search." caption="Distribution of the razor variable M<sub>R</sub> in the hadronic box of the 7 TeV razor search. From <a href='https://arxiv.org/abs/1212.6961'>Inclusive search for supersymmetry using the razor variables at 7 TeV</a>." %}
 
 With the first LHC data I worked on searches for supersymmetry in CMS:
 

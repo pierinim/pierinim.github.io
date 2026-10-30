@@ -4,7 +4,11 @@ categories: [Projects]
 label: "Trigger"
 excerpt: "New ways to record LHC data: scouting, parking, and fast alerts for striking new-physics signals."
 tags: [CMS, trigger, scouting, parking]
+header:
+  teaser: /assets/img/projects/scouting-parking-hotline.png
 ---
+
+{% include figure image_path="/assets/img/projects/scouting-parking-hotline.png" alt="Dijet mass spectrum at low masses, recorded with data scouting at 8 TeV, with the background fit and example Z′ signals." caption="Dijet mass spectrum recorded with data scouting at 8 TeV, reaching down to 500 GeV. From <a href='https://arxiv.org/abs/1604.08907'>Search for narrow resonances in dijet final states at 8 TeV with the novel CMS technique of data scouting</a>." %}
 
 The LHC produces far more interesting collisions than can be stored. I worked on new strategies
 to extend the physics reach of the CMS trigger:

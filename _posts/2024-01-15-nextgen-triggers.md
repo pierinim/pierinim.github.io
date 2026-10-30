@@ -4,7 +4,11 @@ categories: [Projects]
 label: "Real-time AI"
 excerpt: "AI-powered processing of every LHC collision."
 tags: [real-time, AI, CMS, trigger]
+header:
+  teaser: /assets/img/projects/nextgen-triggers.png
 ---
+
+{% include figure image_path="/assets/img/projects/nextgen-triggers.png" alt="Neural-network architectures (MLP, Deep Sets, interaction network) for ultrafast jet tagging in the Level-1 trigger at the HL-LHC." caption="Neural-network architectures (MLP, Deep Sets, interaction network) for ultrafast jet tagging in the Level-1 trigger at the HL-LHC. From <a href='https://arxiv.org/abs/2402.01876'>Ultrafast jet classification at the HL-LHC</a>." %}
 
 CERN's **Next Generation Triggers** project, launched in January 2024 as a five-year joint effort of the CERN EP, TH and IT departments with ATLAS and CMS, aims to design an AI-powered real-time processing workflow able to look at every single collision produced at the High-Luminosity LHC.
 

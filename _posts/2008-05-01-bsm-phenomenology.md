@@ -4,7 +4,11 @@ categories: [Projects]
 label: "BSM pheno"
 excerpt: "Look-alikes, SUSY model inference, light stops, gauge mediation and diboson combinations."
 tags: [phenomenology, SUSY, BSM, LHC]
+header:
+  teaser: /assets/img/projects/bsm-phenomenology.png
 ---
+
+{% include figure image_path="/assets/img/projects/bsm-phenomenology.png" alt="Angles describing the H → ZZ → 4ℓ decay, used in the Higgs look-alike matrix-element method." caption="Angles describing the H → ZZ → 4ℓ decay, used in the Higgs look-alike matrix-element method. From <a href='https://arxiv.org/abs/1001.5300'>Higgs look-alikes at the LHC</a>." %}
 
 Alongside the CMS searches, I worked with theory colleagues on how to discover and interpret
 new physics at the LHC:

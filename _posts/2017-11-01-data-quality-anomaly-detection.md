@@ -4,7 +4,11 @@ categories: [Projects]
 label: "Data quality"
 excerpt: "Deep learning to monitor CMS detectors and certify the quality of the recorded data."
 tags: [CMS, data quality, anomaly detection, autoencoders]
+header:
+  teaser: /assets/img/projects/data-quality-anomaly-detection.png
 ---
+
+{% include figure image_path="/assets/img/projects/data-quality-anomaly-detection.png" alt="Occupancy of a CMS muon drift-tube chamber, as monitored by neural networks to detect detector problems." caption="Occupancy of a CMS muon drift-tube chamber, as monitored by neural networks to detect detector problems. From <a href='https://arxiv.org/abs/1808.00911'>Detector monitoring with artificial neural networks at the CMS experiment</a>." %}
 
 Certifying the quality of the data collected by CMS traditionally relies on shifters looking at
 histograms. With Adrian Alan Pol, during his PhD, and with colleagues in CMS (G. Cerminara,

@@ -1,4 +1,4 @@
-# Generated from indico.cern.ch contributions
+# Talks: generated from indico.cern.ch contributions, plus earlier talks from the CV and INSPIRE proceedings
 - date: 2026-09-30
   event: "21st EP-FCC Gathering"
   title: "CERN AI strategy"
@@ -83,6 +83,16 @@
   event: "Level 1 Scouting Workshop"
   title: "The Enhanced Physics Reach of CMS with an enabled scouting system"
   url: "https://indico.cern.ch/event/1288327/contributions/5416075/"
+- date: 2023-08-21
+  event: "EPS-HEP 2023, Hamburg"
+  title: "Global fit of EW data in the SM and beyond"
+  url: ""
+  month_only: true
+- date: 2023-08-21
+  event: "EPS-HEP 2023, Hamburg"
+  title: "Global UT fits within the SM"
+  url: ""
+  month_only: true
 - date: 2023-07-28
   event: "Advanced Artificial Intelligence for Precision High Energy Physics"
   title: "Bayesian methods and data analysis"
@@ -107,6 +117,11 @@
   event: "SMARTHEP School on Collider Physics and Machine Learning at UniGe"
   title: "Stats and ML 1/3"
   url: "https://indico.cern.ch/event/1214393/contributions/5114765/"
+- date: 2022-08-01
+  event: "Hammer & Nails 2022, Weizmann Institute"
+  title: "Opening talk"
+  url: ""
+  month_only: true
 - date: 2022-07-25
   event: "PALMS 2022"
   title: "Deep learning applied to fundamental science: hands-on session"
@@ -127,6 +142,11 @@
   event: "PALMS 2022"
   title: "Deep learning applied to fundamental science: Lecture 1"
   url: "https://indico.cern.ch/event/1185175/contributions/4979859/"
+- date: 2022-07-06
+  event: "ICHEP 2022, Bologna"
+  title: "Global analysis of EW data in the SM and beyond"
+  url: ""
+  month_only: true
 - date: 2022-07-05
   event: "IML Machine Learning Working Group"
   title: "ML Resources at CERN: a user experience"
@@ -347,11 +367,41 @@
   event: "SUSY07"
   title: "Prospects for a high-luminosity Super B Factory"
   url: "https://indico.cern.ch/event/6210/contributions/1223240/"
+- date: 2007-07-19
+  event: "EPS-HEP 2007, Manchester"
+  title: "Probing the TeV scale (and above) with flavor physics"
+  url: "https://inspirehep.net/literature/797302"
+- date: 2007-07-19
+  event: "EPS-HEP 2007, Manchester"
+  title: "Dealing with O(Λ<sub>QCD</sub>/m<sub>b</sub>) corrections in charmless hadronic B decays"
+  url: "https://inspirehep.net/literature/797255"
+- date: 2006-06-12
+  event: "SUSY06, Irvine"
+  title: "Testing new physics with the unitarity triangle fit"
+  url: "https://inspirehep.net/literature/758040"
 - date: 2005-11-08
   event: "Flavour in the era of the LHC"
   title: "Rare Charmless Decays and Measurements of alpha and beta in Penguins"
   url: "https://indico.cern.ch/event/422562/contributions/1026556/"
+- date: 2005-10-24
+  event: "PANIC 05, Santa Fe"
+  title: "Testing the Standard Model and new physics with the unitarity triangle fit"
+  url: "https://inspirehep.net/literature/736073"
 - date: 2005-03-31
   event: "IFAE - Incontri di Fisica delle Alte Energie - Catania 2005"
   title: "La matrice CKM nel Modello Standard e oltre"
   url: "https://indico.cern.ch/event/421920/contributions/1902381/"
+- date: 2004-08-16
+  event: "ICHEP 2004, Beijing"
+  title: "Talk"
+  url: "https://inspirehep.net/conferences/975835"
+  month_only: true
+- date: 2004-08-05
+  event: "5th Rencontres du Vietnam, Hanoi"
+  title: "Talk"
+  url: ""
+  month_only: true
+- date: 2004-06-17
+  event: "SUSY04, Tsukuba"
+  title: "Constraining new physics with the UTfit analysis"
+  url: "https://inspirehep.net/literature/671190"

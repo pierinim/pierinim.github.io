@@ -4,7 +4,11 @@ categories: [Projects]
 label: "Trigger"
 excerpt: "Unsupervised new-physics detection at 40 MHz in CMS."
 tags: [anomaly detection, trigger, FPGA, CMS]
+header:
+  teaser: /assets/img/projects/anomaly-detection-l1-trigger.png
 ---
+
+{% include figure image_path="/assets/img/projects/anomaly-detection-l1-trigger.png" alt="Variational autoencoder used to mine LHC events for new physics without assuming a specific signal." caption="Variational autoencoder used to mine LHC events for new physics without assuming a specific signal. From <a href='https://arxiv.org/abs/1811.10276'>Variational autoencoders for new physics mining at the LHC</a>." %}
 
 Can we look for new physics without knowing what it looks like? My group has been developing unsupervised (anomaly-detection) algorithms that run on FPGAs in the CMS Level-1 trigger, inspecting the 40 million collisions per second produced by the LHC.
 
