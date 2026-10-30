@@ -1,6 +1,10 @@
 ---
 permalink: /talks/
 title: Talks
+header:
+  overlay_image: /assets/img/banner-talks.jpg
+  overlay_filter: rgba(0, 0, 0, 0.35)
+  caption: "CERN Main Auditorium, Higgs seminar, July 2012 (Image: CERN)"
 ---
 
 Seminars, conference talks, lectures and outreach, from my contributions on

@@ -2,9 +2,9 @@
 title: More
 permalink: /more/
 header:
-  overlay_image: /assets/img/more-banner-zenseact.jpg
-  overlay_filter: rgba(0, 0, 0, 0.3)
-  caption: "Image: Zenseact"
+  overlay_image: /assets/img/banner-more.jpg
+  overlay_filter: rgba(0, 0, 0, 0.2)
+  caption: "Hand-drawn CMS event"
 ---
 
 {% for s in site.data.media %}

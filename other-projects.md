@@ -3,6 +3,10 @@ title: Other projects
 permalink: /other-projects/
 author_profile: true
 classes: wide
+header:
+  overlay_image: /assets/img/banner-other-projects.jpg
+  overlay_filter: rgba(0, 0, 0, 0.35)
+  caption: "Image: Zenseact"
 ---
 
 Work beyond high-energy physics: applying the methods developed for the LHC to autonomous
