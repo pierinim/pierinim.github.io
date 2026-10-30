@@ -1,0 +1,357 @@
+# Generated from indico.cern.ch contributions
+- date: 2026-09-30
+  event: "21st EP-FCC Gathering"
+  title: "CERN AI strategy"
+  url: "https://indico.cern.ch/event/1731616/contributions/7284178/"
+- date: 2026-09-24
+  event: "2026 LHC Days Split"
+  title: "AI/ML in HEP"
+  url: "https://indico.cern.ch/event/1662248/contributions/7097789/"
+- date: 2026-09-01
+  event: "Expanding our Horizons"
+  title: "AI for Physics"
+  url: "https://indico.cern.ch/event/1661010/contributions/7106764/"
+- date: 2026-07-14
+  event: "International High School Teacher Programme"
+  title: "AI in Particle Physics"
+  url: "https://indico.cern.ch/event/1571897/contributions/7063729/"
+- date: 2026-06-24
+  event: "2026 EUROPEAN SCHOOL OF HIGH-ENERGY PHYSICS"
+  title: "Prospects at HL-LHC"
+  url: "https://indico.cern.ch/event/1613697/contributions/7014196/"
+- date: 2026-06-15
+  event: "Flavour physics at LHC School 2026"
+  title: "Statistics for data analysis"
+  url: "https://indico.cern.ch/event/1606446/contributions/6992402/"
+- date: 2026-05-25
+  event: "AI@LHC 2026: what's next?"
+  title: "AI at the LHC"
+  url: "https://indico.cern.ch/event/1650748/contributions/7060944/"
+- date: 2026-01-05
+  event: "ZPW2026: Machine Learning Techniques for Particle Physics"
+  title: "Data to theory: how to fuel BSM model building with anomaly detection"
+  url: "https://indico.cern.ch/event/1604420/contributions/6760752/"
+- date: 2025-11-25
+  event: "QuIC Business Community Summit"
+  title: "Quantum Sensing and Metrology"
+  url: "https://indico.cern.ch/event/1565365/contributions/6729640/"
+- date: 2025-11-25
+  event: "QuIC Business Community Summit"
+  title: "Fast AI for quantum applications"
+  url: "https://indico.cern.ch/event/1565365/contributions/6806332/"
+- date: 2025-08-28
+  event: "2025 CERN-Fermilab HCP Summer School"
+  title: "Machine Learning & Statistics 4"
+  url: "https://indico.cern.ch/event/1510985/contributions/6471081/"
+- date: 2025-08-26
+  event: "2025 CERN-Fermilab HCP Summer School"
+  title: "Machine Learning & Statistics 3"
+  url: "https://indico.cern.ch/event/1510985/contributions/6471080/"
+- date: 2025-08-25
+  event: "2025 CERN-Fermilab HCP Summer School"
+  title: "Machine Learning & Statistics 2"
+  url: "https://indico.cern.ch/event/1510985/contributions/6471078/"
+- date: 2025-08-25
+  event: "2025 CERN-Fermilab HCP Summer School"
+  title: "Machine Learning & Statistics 1"
+  url: "https://indico.cern.ch/event/1510985/contributions/6471077/"
+- date: 2025-08-13
+  event: "International Teacher Weeks Programme"
+  title: "AI in Particle Physics"
+  url: "https://indico.cern.ch/event/1448048/contributions/6530522/"
+- date: 2025-06-17
+  event: "CERN x Mistral AI"
+  title: "LLMs for the LHC Experiments"
+  url: "https://indico.cern.ch/event/1557974/contributions/6561046/"
+- date: 2025-05-09
+  event: "13th Edition of the Large Hadron Collider Physics Conference"
+  title: "Updates from UTfit"
+  url: "https://indico.cern.ch/event/1419878/contributions/6442818/"
+- date: 2025-04-01
+  event: "Italian Teacher Programme"
+  title: "Machine Learning: la ricerca intelligente dei segnali più nascosti"
+  url: "https://indico.cern.ch/event/1423194/contributions/6414647/"
+- date: 2024-07-22
+  event: "ICHEP 2024"
+  title: "CMS Highlights"
+  url: "https://indico.cern.ch/event/1291157/contributions/5958001/"
+- date: 2023-11-23
+  event: "Italian Teacher Programme"
+  title: "Machine Learning nella fisica delle particelle"
+  url: "https://indico.cern.ch/event/1225771/contributions/5651717/"
+- date: 2023-09-06
+  event: "Level 1 Scouting Workshop"
+  title: "The Enhanced Physics Reach of CMS with an enabled scouting system"
+  url: "https://indico.cern.ch/event/1288327/contributions/5416075/"
+- date: 2023-07-28
+  event: "Advanced Artificial Intelligence for Precision High Energy Physics"
+  title: "Bayesian methods and data analysis"
+  url: "https://indico.cern.ch/event/1248002/contributions/5249510/"
+- date: 2023-01-13
+  event: "SMARTHEP School on Collider Physics and Machine Learning at UniGe"
+  title: "Stats and ML 3/3"
+  url: "https://indico.cern.ch/event/1214393/contributions/5114774/"
+- date: 2023-01-13
+  event: "SMARTHEP School on Collider Physics and Machine Learning at UniGe"
+  title: "Hands-on ML 2/2"
+  url: "https://indico.cern.ch/event/1214393/contributions/5114773/"
+- date: 2023-01-12
+  event: "SMARTHEP School on Collider Physics and Machine Learning at UniGe"
+  title: "Stats and ML 2/3"
+  url: "https://indico.cern.ch/event/1214393/contributions/5114767/"
+- date: 2023-01-12
+  event: "SMARTHEP School on Collider Physics and Machine Learning at UniGe"
+  title: "Hands-on ML 1/2"
+  url: "https://indico.cern.ch/event/1214393/contributions/5114769/"
+- date: 2023-01-11
+  event: "SMARTHEP School on Collider Physics and Machine Learning at UniGe"
+  title: "Stats and ML 1/3"
+  url: "https://indico.cern.ch/event/1214393/contributions/5114765/"
+- date: 2022-07-25
+  event: "PALMS 2022"
+  title: "Deep learning applied to fundamental science: hands-on session"
+  url: "https://indico.cern.ch/event/1185175/contributions/4979875/"
+- date: 2022-07-25
+  event: "PALMS 2022"
+  title: "Deep learning applied to fundamental science: Lecture 3"
+  url: "https://indico.cern.ch/event/1185175/contributions/4979870/"
+- date: 2022-07-25
+  event: "PALMS 2022"
+  title: "Deep learning applied to fundamental science: Lecture 2"
+  url: "https://indico.cern.ch/event/1185175/contributions/4979868/"
+- date: 2022-07-24
+  event: "PALMS 2022"
+  title: "Deep learning applied to fundamental science: hands-on"
+  url: "https://indico.cern.ch/event/1185175/contributions/4979860/"
+- date: 2022-07-24
+  event: "PALMS 2022"
+  title: "Deep learning applied to fundamental science: Lecture 1"
+  url: "https://indico.cern.ch/event/1185175/contributions/4979859/"
+- date: 2022-07-05
+  event: "IML Machine Learning Working Group"
+  title: "ML Resources at CERN: a user experience"
+  url: "https://indico.cern.ch/event/1173110/contributions/4934099/"
+- date: 2022-06-21
+  event: "Be.HEP Summer Solstice 2022"
+  title: "Highlights from CMS experiment and prospects for Run3"
+  url: "https://indico.cern.ch/event/1159440/contributions/4882313/"
+- date: 2022-06-07
+  event: "Celebrating a decade of the Higgs"
+  title: "Machine learning in LHC physics"
+  url: "https://indico.cern.ch/event/1161679/contributions/4881644/"
+- date: 2022-01-20
+  event: "CHIPP Winter School of Particle Physics 2022"
+  title: "Machine Learning for Particle Physics"
+  url: "https://indico.cern.ch/event/1077376/contributions/4531241/"
+- date: 2021-12-10
+  event: "CERN QTI Community Workshop"
+  title: "CERN QTI Education & Training"
+  url: "https://indico.cern.ch/event/1098355/contributions/4623696/"
+- date: 2021-09-14
+  event: "CERN Ellis mini workshop"
+  title: "Machine Learning in HEP Q & A"
+  url: "https://indico.cern.ch/event/1033099/contributions/4348198/"
+- date: 2021-09-14
+  event: "CERN Ellis mini workshop"
+  title: "Machine Learning in HEP"
+  url: "https://indico.cern.ch/event/1033099/contributions/4348171/"
+- date: 2021-04-22
+  event: "KPS Pioneer Symposium: Run III prospects and new wave from CMS experiment"
+  title: "Exploiting anomaly detection for new physics identification at the LHC"
+  url: "https://indico.cern.ch/event/1030966/contributions/4329039/"
+- date: 2020-10-22
+  event: "REMOTE - 9th Scientific Computing Forum"
+  title: "Machine learning, AI, and CERN's quantum initiative"
+  url: "https://indico.cern.ch/event/889467/contributions/4062043/"
+- date: 2020-01-22
+  event: "CERN openlab Technical Workshop"
+  title: "Deep Learning use cases in CMS"
+  url: "https://indico.cern.ch/event/853334/contributions/3656971/"
+- date: 2019-07-18
+  event: "1st Real Time Analysis Workshop"
+  title: "Autoencoders for Jet Physics"
+  url: "https://indico.cern.ch/event/793125/contributions/3506190/"
+- date: 2019-03-21
+  event: "Visit of Renault F1 Team"
+  title: "A CERN physicist’s perspective on some of your questions and where Deep Learning could help"
+  url: "https://indico.cern.ch/event/806895/contributions/3358755/"
+- date: 2019-03-14
+  event: "Italian Teacher Programme"
+  title: "SUSY, EXOTICA e tutto quello che *non* troviamo nei dati"
+  url: "https://indico.cern.ch/event/721132/contributions/3319352/"
+- date: 2019-01-25
+  event: "PHYSTAT-nu 2019"
+  title: "The collider experience"
+  url: "https://indico.cern.ch/event/735431/contributions/3137829/"
+- date: 2019-01-23
+  event: "CERN openlab Technical Workshop"
+  title: "Micron: Exploring Accelerated Machine Learning for Experiment Data Analytics"
+  url: "https://indico.cern.ch/event/755842/contributions/3242710/"
+- date: 2019-01-22
+  event: "CHIPP Winter School of Particle Physics 2019"
+  title: "Machine learning"
+  url: "https://indico.cern.ch/event/744252/contributions/3246687/"
+- date: 2018-10-22
+  event: "Workshop on high-energy implications of flavor anomalies"
+  title: "ATLAS+CMS low pT"
+  url: "https://indico.cern.ch/event/701759/contributions/3168344/"
+- date: 2018-10-22
+  event: "CERN/PRACE Workshop"
+  title: "Requirements on HPC from the HEP ML perspective"
+  url: "https://indico.cern.ch/event/760705/contributions/3156827/"
+- date: 2018-09-17
+  event: "AI at CERN and SKA"
+  title: "Deep Learning for the future of the Large Hadron Collider"
+  url: "https://indico.cern.ch/event/745580/contributions/3119763/"
+- date: 2018-09-10
+  event: "Arts and Science across Italy - Master Programme"
+  title: "I falsari moderni"
+  url: "https://indico.cern.ch/event/729517/contributions/3071062/"
+- date: 2018-08-22
+  event: "PPC 2018: XII International Conference on Interconnections between Particle Physics and Cosmology"
+  title: "Deep Learning and the challenges of High-Luminosity LHC"
+  url: "https://indico.cern.ch/event/683496/contributions/3100690/"
+- date: 2018-07-20
+  event: "Pre-SUSY 2018: School on Supersymmetry and Unification of Fundamental Interactions"
+  title: "LHC physics (exp.)"
+  url: "https://indico.cern.ch/event/691515/contributions/2970088/"
+- date: 2018-06-20
+  event: "PACTS 2018: Particle, Astroparticle and Cosmology Tallinn Symposium"
+  title: "Status and perspectives of BSM searches at the LHC"
+  url: "https://indico.cern.ch/event/609125/contributions/3015962/"
+- date: 2018-03-16
+  event: "CERN EP Department - R&D on experimental technologies - Workshop 1"
+  title: "Machine Learning Solutions"
+  url: "https://indico.cern.ch/event/696066/contributions/2926444/"
+- date: 2018-01-12
+  event: "CERN openlab Technical Workshop"
+  title: "HEP ML at the HL-LHC"
+  url: "https://indico.cern.ch/event/669648/contributions/2802539/"
+- date: 2017-11-03
+  event: "IML Machine Learning Working Group: Generative models"
+  title: "GANs and fast simulation in GeantV"
+  url: "https://indico.cern.ch/event/655447/contributions/2777183/"
+- date: 2017-05-17
+  event: "CN Yang Scholars 2017"
+  title: "Lecture - Introduction to Particle Physics - Experiment"
+  url: "https://indico.cern.ch/event/630757/contributions/2548834/"
+- date: 2017-04-27
+  event: "CERN openlab workshop on Machine Learning and Data Analytics"
+  title: "Machine Learning in Reconstruction"
+  url: "https://indico.cern.ch/event/627852/contributions/2538514/"
+- date: 2017-03-23
+  event: "CERN openlab Workshop on Compute Platforms and Software"
+  title: "Requirements and impact of Machine Learning in HEP data processing"
+  url: "https://indico.cern.ch/event/622198/contributions/2509750/"
+- date: 2017-01-16
+  event: "1st FCC Physics Workshop"
+  title: "Jet properties and boosted objects in the multi-TeV region"
+  url: "https://indico.cern.ch/event/550509/contributions/2413272/"
+- date: 2017-01-12
+  event: "Deep Learning at CSCS"
+  title: "Deep Learning in HEP"
+  url: "https://indico.cern.ch/event/602222/contributions/2432674/"
+- date: 2017-01-10
+  event: "ZPW17: The second run of the LHC"
+  title: "New Physics searches with CMS"
+  url: "https://indico.cern.ch/event/587148/contributions/2409106/"
+- date: 2016-12-09
+  event: "CERN openlab Technical Workshop"
+  title: "Challenges in Machine Learning in HEP"
+  url: "https://indico.cern.ch/event/575212/contributions/2361407/"
+- date: 2016-04-12
+  event: "LHC Ski 2016, Austria"
+  title: "Fine-tuning sweet spots"
+  url: "https://indico.cern.ch/event/351843/contributions/828663/"
+- date: 2016-02-04
+  event: "10th FCC-ee physics workshop"
+  title: "BSM searches at FCC-ee -- group status and plans"
+  url: "https://indico.cern.ch/event/469576/contributions/1988943/"
+- date: 2016-01-12
+  event: "ATLAS-CMS Monte Carlo Generators Workshop"
+  title: "Exotica MC and formats for reporting results (20'+5')"
+  url: "https://indico.cern.ch/event/454993/contributions/1953106/"
+- date: 2015-10-14
+  event: "Gearing up for LHC13 -- Conference"
+  title: "Signs of Hope"
+  url: "https://indico.cern.ch/event/356452/contributions/1764858/"
+- date: 2015-03-26
+  event: "FCC Week 2015"
+  title: "Direct BSM exploration at the high-mass frontier"
+  url: "https://indico.cern.ch/event/340703/contributions/802079/"
+- date: 2015-03-24
+  event: "FCC Week 2015"
+  title: "Dark matter and BSM searches at FCC-ee"
+  url: "https://indico.cern.ch/event/340703/contributions/802119/"
+- date: 2015-03-12
+  event: "Higgs & BSM at 100 TeV"
+  title: "Tagging dijet decays of highly boosted color-singlet objects"
+  url: "https://indico.cern.ch/event/352868/contributions/1757082/"
+- date: 2014-10-29
+  event: "FCC-ee (TLEP) Physics Workshop (TLEP8)"
+  title: "Supersymmetry: filling the LHC holes"
+  url: "https://indico.cern.ch/event/337673/contributions/1728497/"
+- date: 2014-09-15
+  event: "The 2nd NPKI Workshop, \"Physics from Run 2 of the LHC\""
+  title: "M6 Searches for a Heavy resonances at the LHC"
+  url: "https://indico.cern.ch/event/300050/contributions/687706/"
+- date: 2014-07-19
+  event: "Cargese International School for Theoretical Particle Physics: MultiTeV Probes of the Standard Model and beyond with the LHC"
+  title: "The high-pT pp physics in the first LHC run 4/4"
+  url: "https://indico.cern.ch/event/282015/contributions/638802/"
+- date: 2014-07-17
+  event: "Cargese International School for Theoretical Particle Physics: MultiTeV Probes of the Standard Model and beyond with the LHC"
+  title: "The high-pT pp physics in the first LHC run 3/4"
+  url: "https://indico.cern.ch/event/282015/contributions/638792/"
+- date: 2014-07-16
+  event: "Cargese International School for Theoretical Particle Physics: MultiTeV Probes of the Standard Model and beyond with the LHC"
+  title: "The high-pT pp physics in the first LHC run 2/4"
+  url: "https://indico.cern.ch/event/282015/contributions/638788/"
+- date: 2014-07-15
+  event: "Cargese International School for Theoretical Particle Physics: MultiTeV Probes of the Standard Model and beyond with the LHC"
+  title: "The high-pT pp physics in the first LHC run 1/4"
+  url: "https://indico.cern.ch/event/282015/contributions/638784/"
+- date: 2014-05-26
+  event: "1st Future Hadron Collider Workshop"
+  title: "Tagging hyper-boosted gauge bosons"
+  url: "https://indico.cern.ch/event/304759/contributions/699299/"
+- date: 2013-11-08
+  event: "Exotica Workshop at the PCTS"
+  title: "CMS Searches using Jet Substructure"
+  url: "https://indico.cern.ch/event/266531/contributions/595346/"
+- date: 2012-05-04
+  event: "Chicago 2012 workshop on LHC physics"
+  title: "Experiment: Presentation of scientific results"
+  url: "https://indico.cern.ch/event/176585/contributions/1438636/"
+- date: 2011-01-17
+  event: "PHYSTAT2011"
+  title: "Reference priors and model inference"
+  url: "https://indico.cern.ch/event/107747/contributions/32683/"
+- date: 2008-09-05
+  event: "Beyond the 3SM generation at the LHC era Workshop"
+  title: "Babar Results"
+  url: "https://indico.cern.ch/event/33285/contributions/1719246/"
+- date: 2008-06-03
+  event: "Flavour as a Window to New Physics at the LHC"
+  title: "Joint PP/EP Tuesday Seminar: Constraints on new physics from b→s hadronic decays at Babar"
+  url: "https://indico.cern.ch/event/31959/contributions/739128/"
+- date: 2007-12-03
+  event: "Interplay of Collider and Flavour Physics"
+  title: "Prospects of CMS, high-p_T aspects"
+  url: "https://indico.cern.ch/event/22180/contributions/1528287/"
+- date: 2007-07-31
+  event: "SUSY07"
+  title: "Unitarity Triangle analysis beyond the Standard Model: general analysis and constraints on specific models"
+  url: "https://indico.cern.ch/event/6210/contributions/1223206/"
+- date: 2007-07-31
+  event: "SUSY07"
+  title: "Prospects for a high-luminosity Super B Factory"
+  url: "https://indico.cern.ch/event/6210/contributions/1223240/"
+- date: 2005-11-08
+  event: "Flavour in the era of the LHC"
+  title: "Rare Charmless Decays and Measurements of alpha and beta in Penguins"
+  url: "https://indico.cern.ch/event/422562/contributions/1026556/"
+- date: 2005-03-31
+  event: "IFAE - Incontri di Fisica delle Alte Energie - Catania 2005"
+  title: "La matrice CKM nel Modello Standard e oltre"
+  url: "https://indico.cern.ch/event/421920/contributions/1902381/"

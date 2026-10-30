@@ -12,19 +12,23 @@ particular emphasis on **real-time AI** running on FPGAs in the trigger system.
 
 ### Career
 
-- **CERN** — on CMS since 2007; CERN Fellow, then research staff physicist.
-- **University of Wisconsin–Madison** — BaBar experiment at SLAC.
-- **University of Rome** — BaBar experiment; UTfit collaboration.
+- **2015 – present** — Staff physicist, CERN (CMS)
+- **2009 – 2014** — Junior staff, CERN (CMS)
+- **2007 – 2009** — CERN Fellow (CMS)
+- **2005 – 2007** — Postdoc, University of Wisconsin–Madison (BaBar)
+- **2004 – 2005** — Postdoc, LAL Orsay (BaBar)
+- **2001 – 2004** — PhD, University of Rome / INFN Rome (BaBar), advisors F. Ferroni and G. Martinelli
 
 ### Research highlights
 
 - Anomaly-detection triggers for new physics at the LHC, culminating in the
   AXOL1TL and CICADA algorithms deployed in the CMS Level-1 trigger.
-- Co-founder of [hls4ml](https://github.com/fastmachinelearning/hls4ml) and the
-  *Fast Machine Learning* community.
+- Co-author of the original [hls4ml](https://github.com/fastmachinelearning/hls4ml) paper and
+  member of the *Fast Machine Learning* community.
 - Graph neural networks for jet tagging and reconstruction (JEDI-net, GarNet).
 - Searches for supersymmetry and exotica in CMS (razor variables, dijet and diboson resonances).
-- CKM Unitarity Triangle fits with UTfit.
+- CKM Unitarity Triangle fits with UTfit, and global electroweak/Higgs fits with HEPfit.
+- Physics prospects for future colliders (FCC, LEP3).
 
 ### Roles, grants and awards
 
@@ -39,5 +43,6 @@ particular emphasis on **real-time AI** running on FPGAs in the trigger system.
 
 [INSPIRE-HEP](https://inspirehep.net/authors/1021028) ·
 [Google Scholar](https://scholar.google.com/citations?user=3vZMAs4AAAAJ) ·
+[ORCID](https://orcid.org/0000-0003-1939-4268) ·
 [GitHub](https://github.com/pierinim) ·
 [CMS interview](https://cmsexperiment.web.cern.ch/news/interview-maurizio-pierini-cms-physicist)
