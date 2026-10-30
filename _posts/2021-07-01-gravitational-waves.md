@@ -1,6 +1,6 @@
 ---
 title: "Anomaly detection for gravitational waves"
-categories: [Other]
+categories: [Projects]
 label: "Gravitational waves"
 excerpt: "Unsupervised, source-agnostic detection of gravitational-wave signals with recurrent autoencoders."
 tags: [gravitational waves, anomaly detection, autoencoders, FPGA]

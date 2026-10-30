@@ -1,11 +1,11 @@
 ---
 title: More
 permalink: /more/
+header:
+  overlay_image: /assets/img/more-banner-zenseact.jpg
+  overlay_filter: rgba(0, 0, 0, 0.3)
+  caption: "Image: Zenseact"
 ---
-
-My work for a general audience: a documentary film, press coverage, interviews, podcasts and
-public talks. Teacher programmes and school lectures are also listed on the
-[Talks]({{ '/talks/' | relative_url }}) page.
 
 {% for s in site.data.media %}
 <h3>{{ s.section }}</h3>

@@ -5,8 +5,8 @@ author_profile: true
 classes: wide
 ---
 
-Work beyond high-energy physics: applying the methods developed for the LHC to gravitational
-waves, autonomous driving, edge AI, space and quantum computing, often together with industry.
+Work beyond high-energy physics: applying the methods developed for the LHC to autonomous
+driving, edge AI and space, often together with industry.
 
 <div class="home-cards">
   {% for post in site.categories.Other %}

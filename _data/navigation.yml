@@ -1,8 +1,8 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Projects"
-    url: /projects/
+  - title: "Physics"
+    url: /physics/
   - title: "Other projects"
     url: /other-projects/
   - title: "Publications"

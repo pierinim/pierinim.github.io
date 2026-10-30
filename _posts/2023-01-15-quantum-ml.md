@@ -1,6 +1,6 @@
 ---
 title: "Quantum machine learning"
-categories: [Other]
+categories: [Projects]
 label: "Quantum"
 excerpt: "Quantum and tensor-network algorithms for anomaly detection and jet tagging, and the CERN Quantum Technology Initiative."
 tags: [quantum computing, quantum machine learning, tensor networks]
