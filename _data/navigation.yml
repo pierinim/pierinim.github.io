@@ -3,6 +3,8 @@ main:
     url: /about/
   - title: "Projects"
     url: /projects/
+  - title: "Other projects"
+    url: /other-projects/
   - title: "Publications"
     url: /publications/
   - title: "Talks"
