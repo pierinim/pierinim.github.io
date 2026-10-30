@@ -3,10 +3,6 @@ title: More
 permalink: /more/
 ---
 
-My work for a general audience: a documentary film, press coverage, interviews, podcasts and
-public talks. Teacher programmes and school lectures are also listed on the
-[Talks]({{ '/talks/' | relative_url }}) page.
-
 {% for s in site.data.media %}
 <h3>{{ s.section }}</h3>
 <ul class="media-list">
