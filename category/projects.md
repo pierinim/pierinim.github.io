@@ -3,4 +3,4 @@ layout: category
 title: Projects
 ---
 
-Ongoing research projects
+Research projects, current and past.
