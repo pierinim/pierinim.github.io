@@ -39,7 +39,7 @@ body {
   background:
     radial-gradient(ellipse at 50% 0%, rgba(7, 11, 20, 0.35) 0%, rgba(7, 11, 20, 0.92) 70%),
     linear-gradient(180deg, rgba(7, 11, 20, 0.55), rgba(7, 11, 20, 0.95)),
-    url("{{ site.baseurl }}/assets/img/cms-background.jpg") center 30% / cover no-repeat,
+    url("{{ site.baseurl }}/assets/img/cms-background.jpg") center / cover no-repeat,
     radial-gradient(circle at 70% 20%, #13203a 0%, $bg 60%);
   filter: saturate(0.85);
 }
