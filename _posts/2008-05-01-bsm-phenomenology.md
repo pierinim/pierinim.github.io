@@ -9,8 +9,11 @@ tags: [phenomenology, SUSY, BSM, LHC]
 Alongside the CMS searches, I worked with theory colleagues on how to discover and interpret
 new physics at the LHC:
 
-- **Look-alikes.** How to tell apart new-physics models that produce similar early signals,
-  for missing-energy signatures and for a Higgs-like resonance.
+- **Higgs look-alikes.** A novel matrix-element method to search for H → ZZ → 4ℓ and assign the
+  new particle its quantum numbers. Adopted by CMS in 2012, it gave a sensitivity boost that
+  contributed to the Higgs discovery.
+- **Missing-energy look-alikes.** How to tell apart new-physics models that produce similar
+  early missing-energy signals.
 - **SUSY model inference.** Interpreting LHC searches in the phenomenological MSSM, and the
   role of priors in model inference.
 - **Natural SUSY and gauge mediation.** The light stop window, and the LHC phenomenology of

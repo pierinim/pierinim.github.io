@@ -20,7 +20,7 @@ the Rome group:
 - **Minimal Flavour Violation.** Bounds on rare K and B decays and UT analyses in MFV scenarios
   beyond the Standard Model.
 
-In 2009 I received the European Physical Society **Young Physicist Prize**.
+In 2007 I received the European Physical Society **Young Physicist Prize** for my contributions to the study of B-meson decays.
 
 Selected papers:
 

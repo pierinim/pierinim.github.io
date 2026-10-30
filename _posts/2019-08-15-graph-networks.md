@@ -6,7 +6,7 @@ excerpt: "Graph networks for jet tagging and particle reconstruction."
 tags: [GNN, jet tagging, reconstruction]
 ---
 
-Particle-physics data are naturally irregular sets of particles and detector hits, so graph neural networks are a natural fit. Work in this direction includes **JEDI-net**, a jet-identification algorithm based on interaction networks, **GarNet** / distance-weighted graph networks for irregular calorimeter geometries, and their implementation on FPGAs for real-time use in the trigger.
+Early applications of deep learning in high-energy physics turned collision data into images or sequences, which limited the performance gain. With S. R. Qasim et al. I proposed adopting graph neural networks for particle physics, and in a series of papers we showed that graph architectures on a point-cloud representation of LHC data significantly improve performance. Work in this direction includes **JEDI-net**, a jet-identification algorithm based on interaction networks, **GarNet** / distance-weighted graph networks for irregular calorimeter geometries, and their implementation on FPGAs for real-time use in the trigger.
 
 - [JEDI-net (Eur. Phys. J. C 80 (2020) 58)](https://arxiv.org/abs/1908.05318)
 - [Distance-weighted graph networks (arXiv:1902.07987)](https://arxiv.org/abs/1902.07987)
