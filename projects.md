@@ -1,11 +1,12 @@
 ---
-title: Projects
-permalink: /projects/
+title: Physics
+permalink: /physics/
+redirect_from: /projects/
 author_profile: true
 classes: wide
 ---
 
-Research projects, current and past.
+Research projects in particle physics, current and past.
 
 <div class="home-cards">
   {% for post in site.categories.Projects %}
