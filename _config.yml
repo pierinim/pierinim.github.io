@@ -1,41 +1,86 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+# Site built with the Minimal Mistakes theme: https://mmistakes.github.io/minimal-mistakes/
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin: "default"   # colours are overridden in assets/css/main.scss
 
-# Setup
-title:            Maurizio Pierini
-tagline:          'Physicist at CERN'
-description:      'Physicist at CERN & CMS. AI for particle physics and real-time machine learning.'
-url:              https://pierinim.github.io
-baseurl:          # the optional subpath of your site, e.g. "/blog"
-                  # NB: This applies to all pages in your Jekyll site.
-                  # If you want to move just the blog index pages but keep
-                  # other pages at root, see the paginate_path and
-                  # sidebar_blog_link below.
+locale: "en-US"
+title: "Maurizio Pierini"
+subtitle: "AI for real-time physics at the LHC"
+name: "Maurizio Pierini"
+description: "Physicist at CERN & CMS. AI for particle physics and real-time machine learning."
+url: "https://pierinim.github.io"
+baseurl: ""
+repository: "pierinim/pierinim.github.io"
+search: true
+breadcrumbs: false
 
-#author:
-#  name:           'Andrew Fong'
-#  url:            https://twitter.com/fongandrewc
+author:
+  name: "Maurizio Pierini"
+  bio: "Staff physicist at CERN on the CMS experiment. AI for real-time physics at the LHC."
+  location: "CERN, Geneva"
+  links:
+    - label: "INSPIRE-HEP"
+      icon: "fas fa-fw fa-atom"
+      url: "https://inspirehep.net/authors/1021028"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=3vZMAs4AAAAJ"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0003-1939-4268"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/pierinim"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/maurizio-pierini-a04889a"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://twitter.com/xmpierinix"
 
-paginate:         5
-# paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
+footer:
+  links:
+    - label: "INSPIRE-HEP"
+      icon: "fas fa-fw fa-atom"
+      url: "https://inspirehep.net/authors/1021028"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/pierinim"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://twitter.com/xmpierinix"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+permalink: /:categories/:title/
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-include-cache
 
-# Custom vars
-#version:            3.4.1
-sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
-                                # page. If you change your paginate_path,
-                                # set this to the root of the paginate_path
-                                # to enable a separate blog link.
-github:
-  repo:             https://github.com/pierinim
+include:
+  - _pages
 
-twitter_username:     xmpierinix
-github_username:      pierinim
-linkedin_username:   maurizio-pierini-a04889a
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

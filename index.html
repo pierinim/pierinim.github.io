@@ -1,13 +1,54 @@
 ---
-layout: index
-title: Home
+layout: splash
+permalink: /
+title: "Maurizio Pierini"
+author_profile: false
+header:
+  overlay_image: /assets/img/cms-background.jpg
+  overlay_filter: rgba(28, 58, 92, 0.55)
+  actions:
+    - label: "About me"
+      url: /about/
+    - label: "INSPIRE-HEP"
+      url: "https://inspirehep.net/authors/1021028"
+excerpt: "Staff physicist at CERN on the CMS experiment.<br>AI for real-time physics at the Large Hadron Collider."
 ---
 
-<p>
-  Particle physicist at CERN on the CMS experiment, working on
-  <strong>AI for fundamental physics</strong> and <strong>real-time machine learning</strong>
-  for the LHC trigger. Browse my <a href="{{ site.baseurl }}/category/projects">projects</a>,
-  <a href="{{ site.baseurl }}/publications">publications</a> and
-  <a href="{{ site.baseurl }}/talks">talks</a>, or read more <a href="{{ site.baseurl }}/about">about me</a>.
+<p class="home-intro">
+  I develop deep-learning methods that extend the reach of LHC experiments to new physics,
+  with a focus on anomaly detection and ultra-fast machine learning on FPGAs in the trigger system.
+  I have worked on CMS since 2007, after a PhD and postdocs on BaBar.
 </p>
-<hr>
+
+<h2 class="home-section">Research</h2>
+<div class="home-cards">
+  {% for post in site.categories.Projects limit: 6 %}
+  <a class="home-card" href="{{ post.url | relative_url }}">
+    {% if post.label %}<p class="home-label">{{ post.label }}</p>{% endif %}
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.excerpt | strip_html }}</p>
+  </a>
+  {% endfor %}
+</div>
+<p><a class="btn btn--primary" href="{{ '/projects/' | relative_url }}">All projects</a></p>
+
+<div class="home-columns">
+  <div>
+    <h2 class="home-section">Latest papers</h2>
+    <ul class="home-list">
+      {% for p in site.data.publications limit: 5 %}
+      <li><a href="{{ p.url }}">{{ p.title }}</a><br><small>{{ p.year }}{% if p.arxiv != "" %} · arXiv:{{ p.arxiv }}{% endif %}</small></li>
+      {% endfor %}
+    </ul>
+    <p><a href="{{ '/publications/' | relative_url }}">All {{ site.data.publications | size }} publications →</a></p>
+  </div>
+  <div>
+    <h2 class="home-section">Recent talks</h2>
+    <ul class="home-list">
+      {% for t in site.data.talks limit: 5 %}
+      <li><a href="{{ t.url }}">{{ t.title }}</a><br><small>{{ t.event }} · {{ t.date | date: "%b %Y" }}</small></li>
+      {% endfor %}
+    </ul>
+    <p><a href="{{ '/talks/' | relative_url }}">All {{ site.data.talks | size }} talks →</a></p>
+  </div>
+</div>

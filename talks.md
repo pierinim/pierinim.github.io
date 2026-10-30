@@ -1,7 +1,6 @@
 ---
-layout: page
+permalink: /talks/
 title: Talks
-sidebar_link: true
 ---
 
 Seminars, conference talks, lectures and outreach, from my contributions on

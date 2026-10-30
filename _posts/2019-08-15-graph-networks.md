@@ -1,7 +1,8 @@
 ---
-layout: post
 title: "Graph neural networks for particle physics"
 categories: [Projects]
+label: "GNN"
+excerpt: "Graph networks for jet tagging and particle reconstruction."
 tags: [GNN, jet tagging, reconstruction]
 ---
 

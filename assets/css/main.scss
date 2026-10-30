@@ -1,14 +1,82 @@
 ---
-# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
-# only main files contain this front matter, not partials.
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$sidebar-bg-color: #3861aa;
-$body-color: #3861aa;
-$body-font-family: Monaco, monospace;
-$code-font-family: Monaco, monospace;
-$root-font-family: Monaco, monospace;
-$sidebar-sticky: false;
+@charset "utf-8";
 
-@import "hydeout";
+// Light blue and gray palette on top of the default skin
+$background-color: #f5f7fa;
+$text-color: #2f3b48;
+$muted-text-color: #6b7a8a;
+$primary-color: #4a9fd8;
+$link-color: #1f74b0;
+$link-color-hover: #155a8a;
+$link-color-visited: #1f74b0;
+$border-color: #d9e1ea;
+$code-background-color: #edf2f7;
+$footer-background-color: #e6edf4;
+$masthead-link-color: #2f3b48;
+$masthead-link-color-hover: #1f74b0;
+$navicon-link-color-hover: #d9e8f5;
 
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav { background-color: #ffffff; }
+
+// Year headings on the publications and talks lists
+.page__content h4 {
+  color: $primary-color;
+  border-bottom: 1px solid $border-color;
+  padding-bottom: 0.25em;
+}
+.page__content li small { color: $muted-text-color; }
+
+// Project cards on the home page
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1em;
+  margin: 1em 0 1.5em;
+}
+.home-card {
+  display: block;
+  background: #ffffff;
+  border: 1px solid $border-color;
+  border-top: 3px solid $primary-color;
+  border-radius: 6px;
+  padding: 1em 1.25em;
+  color: $text-color;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+
+  &:hover {
+    color: $text-color;
+    box-shadow: 0 4px 14px rgba(31, 116, 176, 0.15);
+    transform: translateY(-2px);
+  }
+  &:visited { color: $text-color; }
+  h3 { margin: 0.2em 0 0.4em; font-size: $type-size-5; color: $link-color; }
+  p { margin: 0; font-size: $type-size-6; color: $muted-text-color; }
+}
+
+// Home page
+.home-intro { font-size: 1.15em; color: $text-color; max-width: 46em; }
+.home-section { margin-top: 1.5em; border-bottom: 1px solid $border-color; padding-bottom: 0.3em; }
+.home-card .home-label {
+  margin: 0 0 0.3em;
+  font-size: $type-size-7;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $primary-color;
+}
+.home-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+}
+.home-list { padding-left: 1.1em; }
+.home-list li { margin-bottom: 0.6em; }
+.home-list small { color: $muted-text-color; }
