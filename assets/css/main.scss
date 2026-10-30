@@ -59,6 +59,15 @@ $navicon-link-color-hover: #d9e8f5;
   }
   &:visited { color: $text-color; }
   h3 { margin: 0.2em 0 0.4em; font-size: $type-size-5; color: $link-color; }
+  .home-card__img {
+    background: #ffffff;
+    margin: -0.25em -0.5em 0.75em;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-card__img img { max-height: 150px; max-width: 100%; object-fit: contain; }
   p { margin: 0; font-size: $type-size-6; color: $muted-text-color; }
 }
 
@@ -80,3 +89,8 @@ $navicon-link-color-hover: #d9e8f5;
 .home-list { padding-left: 1.1em; }
 .home-list li { margin-bottom: 0.6em; }
 .home-list small { color: $muted-text-color; }
+
+// Project-page figures
+.page__content figure img { max-height: 520px; width: auto; margin: 0 auto; }
+.page__content figure figcaption { text-align: center; }
+.page__content figure figcaption { font-family: $sans-serif; }

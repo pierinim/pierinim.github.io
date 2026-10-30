@@ -11,19 +11,20 @@ header:
       url: /about/
     - label: "INSPIRE-HEP"
       url: "https://inspirehep.net/authors/1021028"
-excerpt: "Physicist at CERN on the CMS experiment. AI Coordinator of the CERN research sector, CMS Physics Coordinator 2022–2024.<br>AI for real-time physics at the Large Hadron Collider."
+excerpt: "Physicist at CERN on the CMS experiment.<br>AI Coordinator of the CERN research sector · CMS Physics Coordinator 2022–2024"
 ---
 
 <p class="home-intro">
-  I develop deep-learning methods that extend the reach of LHC experiments to new physics,
-  with a focus on anomaly detection and ultra-fast machine learning on FPGAs in the trigger system.
-  I have worked on CMS since 2007, after a PhD and postdocs on BaBar.
+  I have worked on CMS since 2007, after a PhD and postdocs on BaBar. My research spans real-time
+  data analysis and AI at the LHC (data scouting, anomaly detection, fast machine learning on FPGAs),
+  searches for new physics, global fits of electroweak, Higgs and flavour data, and B physics.
 </p>
 
 <h2 class="home-section">Research</h2>
 <div class="home-cards">
   {% for post in site.categories.Projects limit: 6 %}
   <a class="home-card" href="{{ post.url | relative_url }}">
+    {% if post.header.teaser %}<div class="home-card__img"><img src="{{ post.header.teaser | relative_url }}" alt="" loading="lazy"></div>{% endif %}
     {% if post.label %}<p class="home-label">{{ post.label }}</p>{% endif %}
     <h3>{{ post.title }}</h3>
     <p>{{ post.excerpt | strip_html }}</p>

@@ -20,8 +20,13 @@ sensitivity of LHC experiments to new physics.
 - **2007 – 2009**: Research Fellow, Experimental Physics Department, CERN
 - **2005 – 2007**: Research assistant, University of Wisconsin–Madison (USA), BaBar
 - **2004 – 2005**: Postdoc, LAL Orsay (France), BaBar
-- **2005**: PhD in Physics, University of Rome "La Sapienza" (advisors F. Ferroni and G. Martinelli)
-- **2001**: Laurea in Physics, University of Rome "La Sapienza"
+- **2001 – 2005**: PhD in Physics, University of Rome "La Sapienza", BaBar (advisors F. Ferroni and
+  G. Martinelli). Thesis: [*Time-dependent asymmetries in b → s decays in the Standard Model and
+  beyond*](https://cds.cern.ch/record/980841)
+- **2000 – 2001**: Undergraduate research in Rome on BaBar and B-physics phenomenology, with the same
+  advisors, leading to my first two papers (charming penguins, and the BaBar B → Kπ branching ratios).
+  Laurea in Physics, June 2001. Thesis: [*Decadimenti a due corpi del mesone B senza charm nello
+  stato finale*](https://cds.cern.ch/record/980842)
 
 ### Research highlights
 

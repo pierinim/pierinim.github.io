@@ -4,7 +4,11 @@ categories: [Projects]
 label: "Flavour pheno"
 excerpt: "Unitarity Triangle fits, charming penguins, penguin pollution in sin2β, γ from Dalitz plots, MFV."
 tags: [UTfit, flavour, CKM, phenomenology]
+header:
+  teaser: /assets/img/projects/flavour-phenomenology.png
 ---
+
+{% include figure image_path="/assets/img/projects/flavour-phenomenology.png" alt="Global UTfit analysis of the CKM Unitarity Triangle: constraints in the (ρ̄, η̄) plane." caption="Global UTfit analysis of the CKM Unitarity Triangle: constraints in the (ρ̄, η̄) plane. From <a href='https://arxiv.org/abs/2212.03894'>New UTfit analysis of the Unitarity Triangle in the Cabibbo-Kobayashi-Maskawa scheme</a>." %}
 
 In parallel with BaBar, I worked on flavour phenomenology with M. Ciuchini, L. Silvestrini and
 the Rome group:
@@ -13,6 +17,7 @@ the Rome group:
   Bayesian fits of the CKM Unitarity Triangle, in the Standard Model and beyond, including
   model-independent bounds on ΔF=2 operators and the scale of new physics.
 - **Charming penguins.** Non-perturbative penguin contributions to charmless two-body B decays.
+  "Charming penguins strike back" (2001) was my first paper, written as an undergraduate.
 - **Penguin pollution in sin2β.** A data-driven estimate of the theoretical uncertainty on
   sin2β from B → J/ψ K<sup>0</sup>.
 - **γ from Dalitz plots.** Extracting the CKM angle γ from time-integrated Dalitz-plot analyses

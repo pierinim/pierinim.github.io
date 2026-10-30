@@ -4,9 +4,8 @@ minimal_mistakes_skin: "default"   # colours are overridden in assets/css/main.s
 
 locale: "en-US"
 title: "Maurizio Pierini"
-subtitle: "AI for real-time physics at the LHC"
 name: "Maurizio Pierini"
-description: "Physicist at CERN & CMS. AI for particle physics and real-time machine learning."
+description: "Physicist at CERN on the CMS experiment."
 url: "https://pierinim.github.io"
 baseurl: ""
 repository: "pierinim/pierinim.github.io"

@@ -4,7 +4,11 @@ categories: [Projects]
 label: "Exotica"
 excerpt: "Searches for new resonances in dijet and VV final states, and model-agnostic dijet searches."
 tags: [CMS, exotica, dijet, diboson, anomaly detection]
+header:
+  teaser: /assets/img/projects/resonance-searches.png
 ---
+
+{% include figure image_path="/assets/img/projects/resonance-searches.png" alt="Dijet mass spectrum at 8 TeV with the background fit and example resonance signals." caption="Dijet mass spectrum at 8 TeV with the background fit and example resonance signals. From <a href='https://arxiv.org/abs/1302.4794'>Search for narrow resonances using the dijet mass spectrum at 8 TeV</a>." %}
 
 I worked on CMS searches for new heavy resonances decaying to jets:
 
