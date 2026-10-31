@@ -4,7 +4,7 @@ title: Publications
 header:
   overlay_image: /assets/img/banner-publications.jpg
   overlay_filter: rgba(0, 0, 0, 0.35)
-  caption: "The CERN data centre (Image: CERN)"
+  caption: "Cover of <em>Nature Machine Intelligence</em> 3(8), August 2021, featuring our QKeras and hls4ml paper"
 ---
 
 As a member of the CMS Collaboration (and previously BaBar) I am co-author of more than
